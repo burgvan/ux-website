@@ -270,8 +270,13 @@
 	  .bucket p{
 	  	text-align: center;
 	  }
+		.bucket p:first-child {
+		    font-weight: bold;
+		}	  
 	  .box:hover {
-		border: 7px solid #fc5242;
+		-moz-box-shadow: 0 2px 8px 0 rgba(0,0,0,.5);
+	    -webkit-box-shadow: 0 2px 8px 0 rgba(0,0,0,.5);
+	    box-shadow: 0 2px 8px 0 rgba(0,0,0,.5);
 	  }
 	  .about-box {
 		margin-bottom:20px;
@@ -378,7 +383,7 @@
 		color: #fff;
 		text-decoration: none;
 		background: none;
-		border-bottom: 8px solid #292C37;
+		border-bottom: 8px solid #e74c3c;
 		-webkit-box-shadow:  none;
 			-moz-box-shadow:   none;
 				box-shadow:  none;
