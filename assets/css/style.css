@@ -1216,6 +1216,9 @@ border:6px solid #3498DB;
 		#Section-2 .container{
 			width: 301px;
 		}
+		#Section-2 .span3:not(:last-child) {
+		    padding-bottom: 27px;
+		}		
 		.navbar-inverse .navbar-inner {
 			min-height: 30px;
 		}
