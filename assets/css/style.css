@@ -257,6 +257,7 @@
 		background-color: #077560;
 	  }
 	  .bucket{
+	  	color: white;
 		display:inline-block;
 		max-height:248px;
 		overflow:hidden;
