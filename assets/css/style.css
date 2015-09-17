@@ -373,8 +373,8 @@
 		border-bottom: 2px solid transparent;
 	}
 	.navbar .nav > li > a:hover{
-		color: #000;
-		border-bottom: 8px solid #000;
+		color: #e74c3c;
+		border-bottom: 8px solid #e74c3c;
 
 	}
 	.navbar .nav > .active > a, 
